@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\system</FILEPATH>
+      <FILENAME>inputstream.hpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class sf::InputStream', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>sf::InputStream::{dtor}</FUNCTION>
+    <DECORATED>??1InputStream@sf@@UAE@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\system</FILEPATH>
+      <FILENAME>noncopyable.hpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sf::NonCopyable::{ctor}</FUNCTION>
+    <DECORATED>??0NonCopyable@sf@@IAE@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\system</FILEPATH>
+      <FILENAME>noncopyable.hpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class sf::NonCopyable', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>sf::NonCopyable::{dtor}</FUNCTION>
+    <DECORATED>??1NonCopyable@sf@@IAE@XZ</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\system</FILEPATH>
+      <FILENAME>thread.inl</FILENAME>
+      <LINE>30</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'struct sf::priv::ThreadFunc', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>sf::priv::ThreadFunc::{dtor}</FUNCTION>
+    <DECORATED>??1ThreadFunc@priv@sf@@UAE@XZ</DECORATED>
+    <FUNCLINE>30</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\window</FILEPATH>
+      <FILENAME>contextsettings.hpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sf::ContextSettings::{ctor}</FUNCTION>
+    <DECORATED>??0ContextSettings@sf@@QAE@IIIIII_N@Z</DECORATED>
+    <FUNCLINE>62</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\graphics</FILEPATH>
+      <FILENAME>drawable.hpp</FILENAME>
+      <LINE>52</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26432</DEFECTCODE>
+    <DESCRIPTION>If you define or delete any default operation in the type 'class sf::Drawable', define or delete them all (c.21).</DESCRIPTION>
+    <FUNCTION>sf::Drawable::{dtor}</FUNCTION>
+    <DECORATED>??1Drawable@sf@@UAE@XZ</DECORATED>
+    <FUNCLINE>52</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\graphics</FILEPATH>
+      <FILENAME>glyph.hpp</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sf::Glyph::{ctor}</FUNCTION>
+    <DECORATED>??0Glyph@sf@@QAE@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\graphics</FILEPATH>
+      <FILENAME>font.hpp</FILENAME>
+      <LINE>274</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26440</DEFECTCODE>
+    <DESCRIPTION>Function 'sf::Font::Row::Row' can be declared 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sf::Font::Row::{ctor}</FUNCTION>
+    <DECORATED>??0Row@Font@sf@@QAE@II@Z</DECORATED>
+    <FUNCLINE>274</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'sf::Texture::Texture' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 't1''</FUNCTION>
+    <DECORATED>??__Et1@@YAXXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'sf::Texture::Texture' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 't2''</FUNCTION>
+    <DECORATED>??__Et2@@YAXXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'sf::Texture::Texture' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 't3''</FUNCTION>
+    <DECORATED>??__Et3@@YAXXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Локальное объявление "Fruct" скрывает предыдущее объявление в строке "7" файла "c:\users\ern novikov\source\repos\snake2\snake2\main.cpp".</DESCRIPTION>
+    <FUNCTION></FUNCTION>
+    <DECORATED></DECORATED>
+    <FUNCLINE>0</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>Move</FUNCTION>
+    <DECORATED>?Move@@YAXXZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>146</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'time' is assigned only once, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26482</DEFECTCODE>
+    <DESCRIPTION>Only index into arrays using constant expressions (bounds.2).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\ern novikov\source\repos\snake2\snake2</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26446</DEFECTCODE>
+    <DESCRIPTION>Prefer to use gsl::at() instead of unchecked subscript operator (bounds.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\graphics</FILEPATH>
+      <FILENAME>rect.inl</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sf::Rect&lt;int&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Rect@H@sf@@QAE@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\папки\visual studio\sfml\include\sfml\graphics</FILEPATH>
+      <FILENAME>rect.inl</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26455</DEFECTCODE>
+    <DESCRIPTION>Default constructor may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sf::Rect&lt;float&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Rect@M@sf@@QAE@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

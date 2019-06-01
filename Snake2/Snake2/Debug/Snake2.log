@@ -1,0 +1,10 @@
+﻿  main.cpp
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(137): warning C4305: инициализация: усечение из "double" в "float"
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(138): warning C4305: =: усечение из "double" в "float"
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(139): warning C4305: =: усечение из "double" в "float"
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(140): warning C4305: =: усечение из "double" в "float"
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(169): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(174): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(177): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\ern novikov\source\repos\snake2\snake2\main.cpp(105): warning C4102: of: неиспользованная метка
+  Snake2.vcxproj -> C:\Users\Ern Novikov\source\repos\Snake2\Debug\Snake2.exe
